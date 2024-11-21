@@ -1,6 +1,6 @@
 # Not a Black Box: How Explainable Machine Learning Transforms Lending and Saves Millions
 ## Using AI to Reduce Risk, Save Millions, and Build Trust in Lending
-[img]
+![no black box machine learning](not_black_box_machine_learning.jpg)
 
 Loan defaults result in millions of dollars in losses for banks every year, a figure that continues to grow as purchasing power declines in various parts of the world. To more accurately predict when an individual is likely to default on a loan, financial institutions increasingly turn to machine learning models. These models aim to classify whether a person will repay the loan, either before it is approved or during the repayment period.
 
@@ -21,14 +21,14 @@ SHAP Insights:
 - Features with red bars indicate positive contributions toward predicting the loan as "charged off" (higher risk of default).
 - Features with blue bars indicate negative contributions that reduce the risk of default.
 
-[img]
+![fully paid shap plot](charged_off_shap_plot.png)
 
 ### Example 2: Customer Who Fully Repaid
 Key Features:
 - FICO Credit Score: High score indicating strong creditworthiness.
 - Loan Grade: Received the best possible loan grade, signifying low risk.
 
-[img]
+![fully paid shap plot](fully_paid_shap_plot.png)
 
 ## Addressing Class Imbalance and Improving the Model
 One major challenge was the class imbalance in the dataset. Defaults were approximately five times less frequent than fully paid loans, making the model biased toward predicting the majority class.
